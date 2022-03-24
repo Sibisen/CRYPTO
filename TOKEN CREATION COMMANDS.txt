@@ -1,0 +1,55 @@
+ssh root@172.105.37.119  ---linux server
+
+sh -c "$(curl -sSfL https://release.solana.com/v1.9.13/install)"
+(exit & refresh)
+
+
+----creating wallet
+
+solana-keygen new
+
+
+----checking solana balance in wallet
+
+solana balance 
+
+
+----installing packages
+
+sudo apt install libudev-dev
+sudo apt install libssl-dev pkg-config
+sudo apt install build-essential -y
+
+
+-----rust (long time taken to complete)
+
+cargo install spl-token-cli  
+
+---creating token !!!
+
+spl-token create-token
+
+TOKEN address : 4stkBpKm22xAJ9pwAyPiJPutzTLYFC52QEVV66KWkPuR
+
+
+
+----creating account 
+
+spl-token create-account 4stkBpKm22xAJ9pwAyPiJPutzTLYFC52QEVV66KWkPuR
+
+TOKEN ACCOUNT : 8pjJ1AmVHeGdJSiB4kBE7ZSyKjxp2mVsiQV5SfKsBpE3
+
+
+----minting tokens
+
+spl-token mint 4stkBpKm22xAJ9pwAyPiJPutzTLYFC52QEVV66KWkPuR 1000000 8pjJ1AmVHeGdJSiB4kBE7ZSyKjxp2mVsiQV5SfKsBpE3 (1 million XD)
+
+
+----checking your token accounts
+
+spl-token accounts
+
+
+----transfer your tokens to your wallet
+
+spl-token transfer --fund-recipient --allow-unfunded-recipient 4stkBpKm22xAJ9pwAyPiJPutzTLYFC52QEVV66KWkPuR 100 EoF7dk5xRa3UuRGjAgeqik9tStrrZ75ZCvh21aG5T5ay
