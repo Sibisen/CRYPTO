@@ -42,8 +42,7 @@ TOKEN ACCOUNT : 8pjJ1AmVHeGdJSiB4kBE7ZSyKjxp2mVsiQV5SfKsBpE3
 
 ----minting tokens
 
-spl-token mint 4stkBpKm22xAJ9pwAyPiJPutzTLYFC52QEVV66KWkPuR 1000000 8pjJ1AmVHeGdJSiB4kBE7ZSyKjxp2mVsiQV5SfKsBpE3 (1 million XD)
-
+spl-token mint 4stkBpKm22xAJ9pwAyPiJPutzTLYFC52QEVV66KWkPuR 1000000 8pjJ1AmVHeGdJSiB4kBE7ZSyKjxp2mVsiQV5SfKsBpE3 
 
 ----checking your token accounts
 
