@@ -27,6 +27,16 @@ sh -c "$(curl -sSfL https://release.solana.com/v1.9.13/install)"
 cargo install spl-token-cli
 ```
 
+#### 3. Installing the required packages 
+
+```sh
+sudo apt install libudev-dev
+sudo apt install libssl-dev pkg-config
+sudo apt install build-essential -y
+```
+
+
+
 #### 3. Solana Wallet
 
 For this tutorial, we're going to use a Filesystem wallet. This is sufficient for testing, but not recommended for production purpose.
