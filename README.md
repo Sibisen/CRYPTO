@@ -5,7 +5,7 @@ This repository contains full tutorial on Solana SPL token for the windows OS.
 - [Prerequisites](#prerequisites)
 - [Creating SPL Tokens](#creating-spl-tokens)
 - [Creating SPL NFTs](#creating-spl-nfts)
-- [Transferring SPL Tokens]
+- [Transferring SPL Tokens](#Transferring-Spl-Tokens)
 - [Further Resources](#further-resources)
 
 
