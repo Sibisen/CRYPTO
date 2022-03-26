@@ -5,6 +5,7 @@ This repository contains full tutorial on Solana SPL token for the windows OS.
 - [Prerequisites](#prerequisites)
 - [Creating SPL Tokens](#creating-spl-tokens)
 - [Creating SPL NFTs](#creating-spl-nfts)
+- [Transferring SPL Tokens]
 - [Further Resources](#further-resources)
 
 
@@ -125,6 +126,15 @@ Disable future minting
 ```sh
 spl-token authorize <token-identifier> mint --disable
 ```
+
+### Transferring SPL Tokens
+
+Transferring a token for the first time , which requires creation of a token account
+
+``sh
+spl-token transfer --fund-recipient --allow-unfunded-recipient <token-identifier> 100 <wallet-address>
+``
+
 
 ### Further Resources
 - [Solana Docs](https://docs.solana.com/introduction)
