@@ -1,7 +1,7 @@
 # CRYPTO
 
 # 🚀 Solana SPL Tutorial
-This repository contains full tutorial on Solana SPL token
+This repository contains full tutorial on Solana SPL token for the windows OS.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -35,9 +35,7 @@ sudo apt install libssl-dev pkg-config
 sudo apt install build-essential -y
 ```
 
-
-
-#### 3. Solana Wallet
+#### 4. Solana Wallet
 
 For this tutorial, we're going to use a Filesystem wallet. This is sufficient for testing, but not recommended for production purpose.
 
@@ -45,12 +43,17 @@ For this tutorial, we're going to use a Filesystem wallet. This is sufficient fo
 solana-keygen new 
 ```
 
-#### 4. checking Solana Cluster configuration
+#### 5. checking Solana Cluster configuration
 
 Check your Solana Cluster configuration
 
 ```sh
 solana config get
+```
+Setting the Solana Cluster to the required network (Testnet/Devnet/Mainnet)
+
+```sh
+solana config set --url https://api.devnet.solana.com
 ```
 
 #### 5. SOL Balance
@@ -101,7 +104,7 @@ spl-token balance <token-identifier>
 
 ### Creating SPL NFTs
 
-First, create the token
+Creating a spl-token  (NFT decimals --> 0 , Fungible token decimals --> 9)
 
 ```sh
 spl-token create-token --decimals 0
