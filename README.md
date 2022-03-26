@@ -141,3 +141,4 @@ spl-token transfer --fund-recipient --allow-unfunded-recipient <token-identifier
 - [SPL Token Program](https://spl.solana.com/token)
 - [Metaplex Docs](https://docs.metaplex.com/candy-machine-v1/introduction)
 
+
