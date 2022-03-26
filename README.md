@@ -20,18 +20,18 @@ This repository contains full tutorial on Solana SPL token for the windows OS.
 sh -c "$(curl -sSfL https://release.solana.com/v1.9.13/install)"
 ```
 
-#### 2. SPL CLI
-
-```sh
-cargo install spl-token-cli
-```
-
-#### 3. Installing the required packages 
+#### 2. Installing the required packages 
 
 ```sh
 sudo apt install libudev-dev
 sudo apt install libssl-dev pkg-config
 sudo apt install build-essential -y
+```
+
+#### 3. SPL CLI
+
+```sh
+cargo install spl-token-cli
 ```
 
 #### 4. Solana Wallet
@@ -109,7 +109,7 @@ Creating a spl-token  (NFT [decimals --> 0] , Fungible token [decimals --> 9])
 spl-token create-token --decimals 0
 ```
 
-Using the unique token identifier, we can create an account to store our balance data
+Using the unique token identifier, we can create an account
 
 ```sh
 spl-token create-account <token-identifier>
