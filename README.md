@@ -103,7 +103,7 @@ spl-token balance <token-identifier>
 
 ### Creating SPL NFTs
 
-Creating a spl-token  (NFT decimals --> 0 , Fungible token decimals --> 9)
+Creating a spl-token  (NFT [decimals --> 0] , Fungible token [decimals --> 9])
 
 ```sh
 spl-token create-token --decimals 0
