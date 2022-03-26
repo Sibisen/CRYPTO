@@ -131,9 +131,9 @@ spl-token authorize <token-identifier> mint --disable
 
 Transferring a token for the first time , which requires creation of a token account
 
-``sh
+```sh
 spl-token transfer --fund-recipient --allow-unfunded-recipient <token-identifier> 100 <wallet-address>
-``
+```
 
 
 ### Further Resources
