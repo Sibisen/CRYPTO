@@ -127,16 +127,16 @@ Disable future minting
 spl-token authorize <token-identifier> mint --disable
 ```
 
-### Transferring SPL Tokens
+### Transferring SPL Tokens 
 
-Transferring a token for the first time , which requires creation of a token account
+Transferring a token (Fungible/Non-Fungible) for the first time , which requires creation of a token account
 
 ```sh
 spl-token transfer --fund-recipient --allow-unfunded-recipient <token-identifier> 100 <wallet-address>
 ```
 
 
-### Further Resources
+### Resources
 - [Solana Docs](https://docs.solana.com/introduction)
 - [SPL Token Program](https://spl.solana.com/token)
 - [Metaplex Docs](https://docs.metaplex.com/candy-machine-v1/introduction)
